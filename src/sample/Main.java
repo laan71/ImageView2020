@@ -28,7 +28,7 @@ public class Main extends Application {
         imageChoiceBox.getItems().add("pebernødder");
         imageChoiceBox.getItems().add("vaniljekranse");
 
-        Parent root = FXMLLoader.load(getClass().getResource("ImageView2020.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Julekager.fxml"));
         primaryStage.setTitle("Julekager");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
