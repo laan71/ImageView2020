@@ -1,5 +1,4 @@
-
-<?xml version="1.0" encoding="UTF-8"?>
+<!--  <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.String?>
 <?import javafx.collections.FXCollections?>
@@ -14,32 +13,32 @@
 
 <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <tabs>
-        <Tab text="Billeder">
+        <Tab text="Opskrifter">
             <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                     <children>
-                        <Button fx:id="indlæsKnap" layoutX="24.0" layoutY="134.0" mnemonicParsing="false" onAction="#visbillede" text="Indlæs et billede" />
-                        <TextField fx:id="filnavnTextField" layoutX="19.0" layoutY="88.0" />
-                        <ImageView fx:id="fotoImageView" fitHeight="286.0" fitWidth="338.0" layoutX="225.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
-                        <ChoiceBox fx:id="billederChoiceBox" layoutX="24.0" layoutY="32.0" prefWidth="150.0" value="vaniljekrans">
+                        <Button fx:id="indlæsKnap2" layoutX="24.0" layoutY="134.0" mnemonicParsing="false" onAction="#visopskrift" text="Vis opskrift" />
+                        <TextField fx:id="filnavnTextField2" layoutX="19.0" layoutY="88.0" />
+                        <ImageView fx:id="fotoImageView2" fitHeight="286.0" fitWidth="338.0" layoutX="225.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+                        <ChoiceBox fx:id="opskrifterChoiceBox" layoutX="24.0" layoutY="32.0" prefWidth="150.0" value="Vaniljekranse opskrift">
                             <items>
                                 <FXCollections fx:factory="observableArrayList">
-                                    <String fx:value="brunkager" />
-                                    <String fx:value="finskbrød" />
-                                    <String fx:value="honninghjerter" />
-                                    <String fx:value="jødekager" />
-                                    <String fx:value="klejner" />
-                                    <String fx:value="peberkagehus" />
-                                    <String fx:value="peberkager" />
-                                    <String fx:value="pebernødder" />
-                                    <String fx:value="vaniljekranse" />
+                                    <String fx:value="Brunkager opskrift" />
+                                    <String fx:value="Finskbrød opskrift" />
+                                    <String fx:value="Honninghjerter opskrift" />
+                                    <String fx:value="Jødekager opskrift" />
+                                    <String fx:value="Klejner opskrift" />
+                                    <String fx:value="Peberkagehus opskrift" />
+                                    <String fx:value="Peberkager opskrift" />
+                                    <String fx:value="Pebernødder opskrift" />
+                                    <String fx:value="Vaniljekranse opskrift" />
                                 </FXCollections>
                             </items>
                         </ChoiceBox>
                     </children></AnchorPane>
             </content>
         </Tab>
-        <Tab text="Opskrifter">
+        <Tab text="Billeder">
             <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                     <children>
@@ -49,4 +48,4 @@
         </Tab>
     </tabs>
 </TabPane>
-
+-->
