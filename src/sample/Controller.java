@@ -8,6 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.*;
 
 
 public class Controller {
@@ -55,7 +56,7 @@ public class Controller {
     }
 
     @FXML
-    void visopskrift(ActionEvent actionEvent) {
+    void visopskrift(ActionEvent actionEvent) throws IOException {
 
         String opskrift = (String) opskrifterChoiceBox.getValue();
         System.out.println("Viser " + opskrift);
@@ -66,6 +67,23 @@ public class Controller {
             Image image = new Image("opskrifter/" + filnavn);
             fotoImageView2.setImage(image);
 
+
+
+
+
+
+/*
+            File file = new File("src/Log/Output.txt");
+            PrintWriter output = new PrintWriter(file);
+            output.println("viser " + opskrift);
+            output.close();
+*/
+
+            FileWriter fw = new FileWriter("src/Log/Output.txt", true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write("viser " + opskrift);
+            bw.newLine();
+            bw.close();
         }
     }
 }

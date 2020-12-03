@@ -28,19 +28,6 @@ public class Main extends Application {
         imageChoiceBox.getItems().add("pebernødder");
         imageChoiceBox.getItems().add("vaniljekranse");
 
-        /*
-        ChoiceBox imageChoiceBox2 = new ChoiceBox();
-
-        imageChoiceBox.getItems().add("brunkagerOpskrift");
-        imageChoiceBox.getItems().add("finskbrødOpskrift");
-        imageChoiceBox.getItems().add("honninghjerterOpskrift");
-        imageChoiceBox.getItems().add("jødekagerOpskrift");
-        imageChoiceBox.getItems().add("klejnerOpskrift");
-        imageChoiceBox.getItems().add("peberkagehusOpskrift");
-        imageChoiceBox.getItems().add("peberkagerOpskrift");
-        imageChoiceBox.getItems().add("pebernødderOpskrift");
-        imageChoiceBox.getItems().add("vaniljekranseOpskrift");
-*/
         Parent root = FXMLLoader.load(getClass().getResource("Julekager.fxml"));
         primaryStage.setTitle("Julekager");
         primaryStage.setScene(new Scene(root, 800, 600));
