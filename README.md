@@ -19,7 +19,7 @@ The selected one is now displayed on the right side of the box.
 
 
 
-![VisOpskrift](https://user-images.githubusercontent.com/54774020/101162173-43482b80-3632-11eb-8aff-6272a27d3161.png)
+![VaniljekranseOpskrift](https://user-images.githubusercontent.com/54774020/101165761-7e009280-3637-11eb-9670-2c0ed090a69e.png)
 
 
 
