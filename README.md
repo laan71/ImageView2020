@@ -8,4 +8,13 @@ When you have selected, press the show picture or show recipe button.
 The selected one is now displayed on the right side of the box.
 
 
-![Her vises et billede samt opskrift på honninghjerter](https://www.valdemarsro.dk/wp-content/2013/12/honninghjerter_opskrift-1.jpg)
+
+![Here is a picture and recipe for honey hearts (honninghjerter)](https://www.valdemarsro.dk/wp-content/2013/12/honninghjerter_opskrift-1.jpg)
+
+
+
+![Here is a picture of the 2 tabs and how to select a specific picture using a dropdown menu].(
+
+
+
+
