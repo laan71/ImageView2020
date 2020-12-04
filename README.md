@@ -23,4 +23,4 @@ The selected one is now displayed on the right side of the box.
 
 
 
-![VisOpskrift2](https://user-images.githubusercontent.com/54774020/101162177-45aa8580-3632-11eb-8047-16eb23c10ce1.png)
+![BrunkageOpskrift](https://user-images.githubusercontent.com/54774020/101165111-6379e980-3636-11eb-8481-7bb102dda92e.png)
