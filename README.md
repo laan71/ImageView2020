@@ -13,9 +13,7 @@ The selected one is now displayed on the right side of the box.
 
 
 
-![Here is a picture of the 2 tabs and how to select a specific picture using a dropdown menu](https://user-images.githubusercontent.com/54774020/101162149-3d524a80-3632-11eb-9268-d29eaf61df89.png)
-
-
+![Here is a picture of the 2 tabs and how to select a specific picture using a dropdown menu](https://user-images.githubusercontent.com/54774020/101164373-3b3dbb00-3635-11eb-9805-23d3ffc1d740.png)
 
 ![VisBillede2](https://user-images.githubusercontent.com/54774020/101162162-3fb4a480-3632-11eb-8003-3681a1c895a1.png)
 
