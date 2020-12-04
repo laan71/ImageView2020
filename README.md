@@ -1,1 +1,1 @@
-#GUI miniprojekt with pictures and recipies
+# GUI miniprojekt with pictures and recipies
